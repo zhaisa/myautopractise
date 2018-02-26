@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [ECSHOP-线上功能监控]" parallel="tests">
+  <test name="搜索诺基亚、投诉(failed)" parallel="tests">
+    <classes>
+      <class name="cases.Case1">
+        <methods>
+          <include name="case1"/>
+        </methods>
+      </class> <!-- cases.Case1 -->
+    </classes>
+  </test> <!-- 搜索诺基亚、投诉(failed) -->
+</suite> <!-- Failed suite [ECSHOP-线上功能监控] -->

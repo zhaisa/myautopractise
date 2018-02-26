@@ -1,0 +1,114 @@
+[12.464][INFO]: COMMAND InitSession {
+   "desiredCapabilities": {
+      "browserName": "chrome",
+      "chromeOptions": {
+         "args": [  ],
+         "extensions": [  ]
+      },
+      "platform": "ANY",
+      "version": ""
+   }
+}
+[12.470][INFO]: Populating Preferences file: {
+   "alternate_error_pages": {
+      "enabled": false
+   },
+   "autofill": {
+      "enabled": false
+   },
+   "browser": {
+      "check_default_browser": false
+   },
+   "distribution": {
+      "import_bookmarks": false,
+      "import_history": false,
+      "import_search_engine": false,
+      "make_chrome_default_for_user": false,
+      "show_welcome_page": false,
+      "skip_first_run_ui": true
+   },
+   "dns_prefetching": {
+      "enabled": false
+   },
+   "profile": {
+      "content_settings": {
+         "pattern_pairs": {
+            "https://*,*": {
+               "media-stream": {
+                  "audio": "Default",
+                  "video": "Default"
+               }
+            }
+         }
+      },
+      "default_content_setting_values": {
+         "geolocation": 1
+      },
+      "default_content_settings": {
+         "geolocation": 1,
+         "mouselock": 1,
+         "notifications": 1,
+         "popups": 1,
+         "ppapi-broker": 1
+      },
+      "password_manager_enabled": false
+   },
+   "safebrowsing": {
+      "enabled": false
+   },
+   "search": {
+      "suggest_enabled": false
+   },
+   "translate": {
+      "enabled": false
+   }
+}
+[12.471][INFO]: Populating Local State file: {
+   "background_mode": {
+      "enabled": false
+   },
+   "ssl": {
+      "rev_checking": {
+         "enabled": false
+      }
+   }
+}
+[12.693][INFO]: Launching chrome: "C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe" --disable-background-networking --disable-client-side-phishing-detection --disable-component-update --disable-default-apps --disable-hang-monitor --disable-popup-blocking --disable-prompt-on-repost --disable-sync --disable-web-resources --enable-logging --ignore-certificate-errors --load-component-extension="C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir5244_20549\internal" --log-level=0 --metrics-recording-only --no-first-run --password-store=basic --remote-debugging-port=12227 --safebrowsing-disable-auto-update --test-type=webdriver --use-mock-keychain --user-data-dir="C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir5244_4267" data:,
+[17.962][INFO]: resolved localhost to ["::1","127.0.0.1"]
+[26.645][INFO]: RESPONSE InitSession {
+   "acceptSslCerts": true,
+   "applicationCacheEnabled": false,
+   "browserConnectionEnabled": false,
+   "browserName": "chrome",
+   "chrome": {
+      "chromedriverVersion": "2.23.409699 (49b0fa931cda1caad0ae15b7d1b68004acd05129)",
+      "userDataDir": "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\scoped_dir5244_4267"
+   },
+   "cssSelectorsEnabled": true,
+   "databaseEnabled": false,
+   "handlesAlerts": true,
+   "hasTouchScreen": false,
+   "javascriptEnabled": true,
+   "locationContextEnabled": true,
+   "mobileEmulationEnabled": false,
+   "nativeEvents": true,
+   "networkConnectionEnabled": false,
+   "platform": "Windows NT",
+   "rotatable": false,
+   "takesHeapSnapshot": true,
+   "takesScreenshot": true,
+   "version": "53.0.2785.89",
+   "~~~": "..."
+}
+[26.863][INFO]: COMMAND Navigate {
+   "url": "https://www.baidu.com"
+}
+[26.863][INFO]: Waiting for pending navigations...
+[26.866][INFO]: Done waiting for pending navigations. Status: ok
+[29.324][INFO]: Waiting for pending navigations...
+[33.731][INFO]: Done waiting for pending navigations. Status: ok
+[33.732][INFO]: RESPONSE Navigate
+[33.811][INFO]: COMMAND QuitAll {
+
+}
+[34.015][INFO]: RESPONSE QuitAll
